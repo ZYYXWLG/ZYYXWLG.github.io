@@ -1,0 +1,22 @@
+#nav {
+    background: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    box-shadow: none !important;
+}
+#recent-posts .recent-post-item, .card-widget {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: none !important;
+}
+#recent-posts .recent-post-item *, .card-widget * {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+.recent-post-info .article-meta-wrap, .card-widget .item-headline, .card-widget .card-info-data-item span, .card-widget .card-info-data-item a {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.recent-post-info .article-content {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
