@@ -1,22 +1,22 @@
-#nav {
+/* 底部页脚深色半透明 */
+#footer {
     background: rgba(0, 0, 0, 0.6) !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
-    box-shadow: none !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
-#recent-posts .recent-post-item, .card-widget {
+
+/* 侧边栏卡片深色毛玻璃 */
+#aside-content .card-widget {
     background: rgba(0, 0, 0, 0.5) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     box-shadow: none !important;
 }
-#recent-posts .recent-post-item *, .card-widget * {
-    color: rgba(255, 255, 255, 0.9) !important;
-}
-.recent-post-info .article-meta-wrap, .card-widget .item-headline, .card-widget .card-info-data-item span, .card-widget .card-info-data-item a {
-    color: rgba(255, 255, 255, 0.65) !important;
-}
-.recent-post-info .article-content {
-    color: rgba(255, 255, 255, 0.75) !important;
+
+/* 侧边栏文字颜色适配 */
+#aside-content .card-widget * {
+    color: rgba(255, 255, 255, 0.85) !important;
 }
