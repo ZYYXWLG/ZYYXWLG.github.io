@@ -25,12 +25,26 @@
 #page-header.post-bg, 
 .post-bg, 
 #post-info {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.3) !important;
 }
 
-/* 2. 文章底部“上一篇/下一篇”导航块黑色半透明 */
-.post-nav, 
-.post-nav-item, 
-#pagination .pagination-post {
+/* 底部上一篇/下一篇终极覆盖 */
+#pagination.pagination-post,
+.post-nav,
+.post-nav-item,
+.post-nav-item a {
     background: rgba(0, 0, 0, 0.5) !important;
+    border: none !important;
+}
+
+/* 悬停时稍微加深一点，防止鼠标移上去又闪回蓝色 */
+.post-nav-item a:hover {
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: #fff !important;
+}
+
+/* 补充：让里面的小字也变成白色 */
+.post-nav-item .post-nav-text,
+.post-nav-item .post-nav-title {
+    color: rgba(255, 255, 255, 0.8) !important;
 }
