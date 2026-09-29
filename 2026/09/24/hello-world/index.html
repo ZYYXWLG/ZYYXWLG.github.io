@@ -201,11 +201,18 @@
   isToc: true,
   pageType: 'post'
 }</script><style>
-/* 底部“上一篇/下一篇”导航块透明 */
+/* 1. 干掉底部页脚蓝色背景 */
+#footer, #footer .footer-other {
+    background: transparent !important;
+}
+/* 2. 底部“上一篇/下一篇”导航块透明（你之前已经搞定的） */
 #pagination, .pagination-post, #pagination .pagination-post, .post-nav {
     background: transparent !important;
 }
-/* 文章顶部横幅透明 */
+.pagination-post .cover {
+    background: transparent !important;
+}
+/* 3. 文章顶部横幅透明 */
 #page-header.post-bg, .post-bg, #post-info {
     background: transparent !important;
 }
